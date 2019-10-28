@@ -21,6 +21,9 @@ class NiymoTests: XCTestCase {
     func testAdd() {
         XCTAssertEqual(niymo.add(a: 1, b: 2), 3)
     }
-
+    
+    func testSub() {
+        XCTAssertEqual(niymo.sub(a: 2, b: 1), 1)
+    }
 
 }
