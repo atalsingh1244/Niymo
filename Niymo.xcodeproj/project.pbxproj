@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4AB9B342366FD660058CEB6 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = A4AB9B332366FD660058CEB6 /* .travis.yml */; };
 		A4F99D652366D09500D1F55A /* Niymo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F99D5B2366D09500D1F55A /* Niymo.framework */; };
 		A4F99D6A2366D09500D1F55A /* NiymoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F99D692366D09500D1F55A /* NiymoTests.swift */; };
 		A4F99D6C2366D09500D1F55A /* Niymo.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F99D5E2366D09500D1F55A /* Niymo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4AB9B332366FD660058CEB6 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		A4F99D5B2366D09500D1F55A /* Niymo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Niymo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F99D5E2366D09500D1F55A /* Niymo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Niymo.h; sourceTree = "<group>"; };
 		A4F99D5F2366D09500D1F55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				A4F99D5E2366D09500D1F55A /* Niymo.h */,
 				A4F99D5F2366D09500D1F55A /* Info.plist */,
 				A4F99DA92366D9C400D1F55A /* Niymo.swift */,
+				A4AB9B332366FD660058CEB6 /* .travis.yml */,
 			);
 			path = Niymo;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AB9B342366FD660058CEB6 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
